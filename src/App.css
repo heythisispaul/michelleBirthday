@@ -1,0 +1,143 @@
+.containerLogin {
+  width: 100%;
+  /* height: 100vh; */
+  position: absolute;
+  background-color: rgba(255, 166, 1, 0.20);
+}
+
+.containerBirthdayZone {
+  width: 100%;
+  position: absolute;
+  background-color: rgba(255, 166, 1, 0.20);
+}
+
+.login {
+  height: 100vh;
+}
+
+#loveContainer {
+  background-color: white;
+}
+
+@media screen and (min-height: 800px) {
+  #loveContainer {
+    height: 100vh;
+  }
+}
+
+
+/* body {
+  position: absolute;
+  background-color: rgba(255, 166, 1, 0.20);
+} */
+
+.headerStyle {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#passwordBox {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10%;
+}
+
+.shakeAnimate {
+  animation: shake 0.3s;
+}
+
+@keyframes shake {
+  0% { transform: translate(8px, 0px) rotate(0deg); }
+  20% { transform: translate(-8px, 0px) rotate(0deg); }
+  40% { transform: translate(8px, 0px) rotate(0deg); }
+  60% { transform: translate(-8px, 0px) rotate(0deg); }
+  80% { transform: translate(8px, 0px) rotate(0deg); }
+  100% { transform: translate(-8px, 0px) rotate(0deg); }
+}
+
+.submitButton {
+  background-color: #15C6CC;
+  font-family: 'Overpass', sans-serif;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 25%;
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+  font-weight: bold;
+}
+
+.submitButton:hover {
+  cursor: default;
+  background-color: #074345;
+}
+
+html {
+  background: url('./assets/Downtown_Phoenix_Aerial_Looking_Northeast.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+#birthdayContainer {
+  background-color: white;
+  height: 100%;
+}
+
+.birthdayHeader {
+  font-family: 'Permanent Marker', cursive;
+  line-height: 80%;
+  font-size: 550%;
+}
+
+.birthdayBody {
+  font-family: 'Overpass', sans-serif;
+  font-size: 110%;
+}
+
+.brewTitle {
+  font-family: 'Permanent Marker', cursive;
+  line-height: 75%;
+  font-size: 350%;
+}
+
+.mediaButton {
+  margin: 10px;
+}
+
+.brewContent {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sig {
+  text-align: center;
+  padding-left: 40%;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 250%;
+}
+
+.toggleButton {
+  background-color: #15C6CC;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 300%;
+  padding: 10px;
+  border-radius: 25px;
+  color: white;
+  width: 40%;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.toggleButton:hover {
+  cursor: default;
+  background-color: #074345;
+
+}
+
+/* Google fonts: 
+font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Overpass', sans-serif; */
