@@ -14,10 +14,10 @@ const Brewery = (props) => {
                 </div>
             </div>
             <div className="row brewContent">
-                <div className="col-6">
-                    <iframe src={props.googleMapSource} width="100%" height="300px" frameborder="0" allowfullscreen></iframe>
+                <div className="col-sm-12 col-md-6">
+                    <iframe src={props.googleMapSource} width="100%" height="300px" frameBorder="0" allowfullscreen></iframe>
                 </div>
-                <div className="col-6">
+                <div className="col-sm-12 col-md-6">
                     <p className="birthdayBody">{props.details}</p>
                     <span>
                         <a href={props.yelp}><img className="mediaButton" src={yelp} alt="some text" /></a>

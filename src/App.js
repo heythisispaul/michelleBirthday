@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import LoginWindow from './components/LoginWindow';
 import BirthdayZone from './components/BirthdayZone';
@@ -14,7 +13,6 @@ class App extends Component {
   }
 
   handlePassword = (e) => {
-    console.log('hello');
     this.setState({ password: e.target.value });
   }
 
